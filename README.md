@@ -17,5 +17,5 @@ separate repository with configs.
 If you use `phpmyadmin-config` repository and configure `courier` to deploy it on host with `phpmyadmin`, it will be
 automatically detected.
 
-But you can also place the `servers.php` file anywhere on host, and add flag `-c [path_to_dir_with_servers.php]` to
+But you can also place the `servers.php` file anywhere on host, and add flag `--configs [path_to_dir_with_servers.php]` to
 `armada run`.
