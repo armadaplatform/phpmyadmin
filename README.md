@@ -44,4 +44,5 @@ The format of the `ssh.json` file is following:
 The file `tunnel@ssh-proxy.example.com.key` with private key for creating SSH tunnel should also be put in the same
 place as files `servers.php` and `ssh.json`.
 
-Now, in `servers.php` you may use `localhost:13306` address to point to the above database. 
+Now, in `servers.php` you may use `127.0.0.1:13306` address to point to the above database. Do not use `localhost`
+instead of `127.0.0.1`, because the phpmyadmin will try to use unix socket.
